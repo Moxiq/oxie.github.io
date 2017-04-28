@@ -1,0 +1,239 @@
+<!DOCTYPE HTML>
+<html lang="sv">
+    <head>
+        <title>Trumpton</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="bootstrap.css"/>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
+    </head>
+
+    <body>
+        
+          
+        <div class="mapdiv">
+           
+        <div class="" id="map"></div>
+        
+        <script>
+      function initMap() {
+        var uluru = {lat: 55.59115141, lng: 12.99425125};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 7,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    
+        </script>
+        </div>
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="index.html" class="navbar-brand">Moxton</a>
+
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+               <div class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="index.html">Startsida</a></li>
+                        <li data-toggle="modal" data-target="#myModal"><a href="#">Logga in</a></li></ul>
+                </div> 
+            </div>
+        </nav>
+        
+      
+        <div id="wrapper3">
+        
+        <div id="adress" class="col-sm-4">
+        
+        <h1>Adress</h1>
+        <p class="pKarta">Grönsakstorget ligger mitt i Göteborg. Vi finns precis i närheten av allt            som händer, ändå kan vi utlova ett lugn som faktiskt är förvånande.</p>
+
+<p class="pKarta">Grönsakstorget 2
+    411 17 Göteborg</p>
+
+<p class="pKarta">Tel: +46 31-13 86 16
+info@hotelflora.se </p>    
+        
+        
+        </div>
+        
+        <div id="vagledning" class="col-sm-7">
+        
+        <h1>Vägledning</h1>
+            <p class="pKarta">Klicka på en av parkeringsmarkörerna för att få en vägbeskrivning. Kontrollera att rätt adress är ifylld i fältet "Från" eller fyll i en egen adress.</p>
+
+            <p class="pKarta"><strong>Med bil</strong></p>
+
+<p class="pKarta">Utanför hotellet finns en 10-minutersparkering, så att ni smidigt kan lasta av ert bagage innan ni parkerar bilen. Vi samarbetar med P-huset  ”Kungsgaraget” på Ekelundsgatan 5-7. Du kan köpa 24h biljett till Kungsgaraget i vår reception för endast 240kr. Se den rosa markören för mer information och vägbeskrivning.</p>
+
+            <p class="pKarta"><strong>Med tåg</strong></p>
+
+<p class="pKarta">Det tar ca 10 min att promenera från Centralstationen och Nils Ericson Terminalen till Flora. Lättaste vägen är att följa Vallgraven utmed Stora Nygatan, och fortsätta på Basargatan tills ni kommer till Grönsakstorget. Vill ni hellre ta spårvagnen, så tar linjerna  2 och 11 er från Drottningtorget till Grönsakstorget.</p>
+
+            <p class="pKarta"><strong>Med flyg</strong></p>
+
+<p class="pKarta">Väljer ni flygbussen är närmsta hållplats Kungsportsplatsen. </p>    
+        
+        
+        </div>
+        </div>
+        
+         <div id="footer">
+            <div class="col-sm-6 kontaktuppgifter1">
+             <h4>Adress</h4>
+            <p>Moon Hostel Malmö</p>
+            <p>Ul. Foksal 16</p>
+            <p>00-372 Malmö</p>
+            
+            <h4>Kontakta oss</h4>
+            <p>Contact us</p>
+            <p>Phone / Fax +48 22 468 00 66</p>
+            <p>Mobile  +48 505-505-590</p>
+            
+            <h4>Email</h4>
+            <p>Sverigehotell@malmö.se</p>
+            
+            </div>
+            
+            <div class="kontaktuppgifter2">
+             <h4>Karta</h4>
+             <a href="karta.html">Här hittar du kartbeskrivning!</a><br>
+            
+            
+            <h4>Kontakt</h4>
+            <a href="kontakt.html">Utökad information gällande kontakt!</a>
+            
+                <a href="facebook.com" class="fa fa-facebook"></a>
+                <a href="twitter.com" class="fa fa-twitter"></a>
+            
+            
+            
+            </div>
+        </div>
+        
+        
+        
+        
+        <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrHXvTqNOwguSFIo9po0Cr2XnUCbYTcDk&callback=initMap">
+    </script>
+       
+        
+        
+        
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
+        
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        
+       <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Fyll i dina uppgifter</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+
+                        <div class="form col-sm-6">
+
+                            <h4>Logga in!</h4>
+                            <form class="form-horizontal">
+                                <div class="form-group">
+                                    <label class="control-label col-sm-3">Email:</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="email" placeholder="Förnamn"> 
+
+                                    </div>
+
+                                </div>
+                            </form>
+
+                            <form class="form-horizontal">
+                                <div class="form-group">
+                                    <label class="control-label col-sm-3">Lösenord:</label>
+                                    <div class="col-sm-8">
+                                        <input type="password" class="form-control" placeholder="Efternamn">
+                                    </div>
+                                </div>
+
+
+                            </form>
+                            <h4>Registrera dig!</h4>
+                            <form class="form-horizontal">
+                                <div class="form-group">
+                                    <label class="control-label col-sm-3">Email:</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control"  placeholder="Email"> 
+
+                                    </div>
+
+                                </div>
+                            </form>
+
+                            <form class="form-horizontal">
+                                <div class="form-group">
+                                    <label class="control-label col-sm-3">Lösenord:</label>
+                                    <div class="col-sm-8">
+                                        <input type="password" class="form-control" placeholder="Lösenord">
+                                    </div>
+                                </div>
+
+
+                            </form>
+                            <form class="form-horizontal">
+                                <div class="form-group">
+                                    <label class="control-label col-sm-3">Upprepa lösenord:</label>
+                                    <div class="col-sm-8">
+                                        <input type="password" class="form-control" placeholder="Upprepa lösenord">
+                                    </div>
+                                </div>
+
+
+                            </form>
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Fortsätt</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    </body>
+    
+                
+
+
+
+
+</html>
